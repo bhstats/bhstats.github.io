@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url("../src/images/bg.png");
+    font-size: medium;
+    font-family: url("../src/fonts/nimbussannov-med.otf") format('opentype')
+}
+
+@font-face {
+    font-family: 'Nimbus';
+    src: url('../src/fonts/nimbussannov-med.otf') format('opentype')
+}
